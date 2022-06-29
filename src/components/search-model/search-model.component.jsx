@@ -34,6 +34,7 @@ const SearchModal = ({ handleChange }) => {
                 placeholder="Search Our Catalog"
                 onChange={handleChange}
                 className="search"
+                
               />
 
             </div>
@@ -42,7 +43,7 @@ const SearchModal = ({ handleChange }) => {
         
         )
       }
-      
+      <BsSearch className='search_icon' onClick = {toggleModal} />
     </div>
   )
 };

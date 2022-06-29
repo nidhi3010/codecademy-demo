@@ -1,10 +1,32 @@
 body.active-modal {
     overflow-y: hidden;
 }
+.search_icon{
+       background-color: brown;
+        margin-right: 10%;
+        line-height: 1.5rem;
+       // padding-top: 1rem;
+        width: 90px;
+        height: 20px;
+        &:hover{
+            cursor: pointer;
+            color: #3A10E5;
+           // background-color: rgb(228, 222, 222);
+                & .search_icon{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+        }
+          
+        }
 
 .search-modal{
-    width: 100vw;
-    height: 100vh;
+   // width: 100vw;
+  //  height: 100vh;
+  width: 100vw;
+  height: 50vh;
     top: 0;
     left: 0;
     right: 0;
@@ -12,29 +34,44 @@ body.active-modal {
     position: fixed;
     z-index: 20;
     .overlay {
-        width: 100vw;
-        height: 150vh;
-        top: 0;
+         width: 100vw;
+         height: 50vh;
+        top: 5rem;
         left: 0;
         right: 0;
         bottom: 0;
         position: fixed;
-        z-index: 4;
+        z-index: -1;
         // background: rgba(8, 8, 8, 0.8);
-       background: rgba(0, 0, 0, 0.863);
+       background: rgba(226, 223, 223, 0.863);
     }
     .modal-content{
         .search-bar{
+            background-color: brown;
+            margin-top: 8rem;
+            margin-left: 7%;
+            margin-right: 7%;
+            border-bottom: 1px black solid;
+            width: 80%;
+           
+         
             .serach-icon{
                 width: 24px;
                height: 24px;
              color: var(--color-gray-600);
-
+              margin-left: -85rem;
+              //margin-top:1rem;
+              margin-bottom: -0.5rem;
+              background-color: blueviolet;
              }
              .search{
                 color: #828285;
                 font-weight: 400;
                 line-height: 1.5;
+                background-color: burlywood;
+              //  width: 50%;
+                // margin-left: 7%;
+                // margin-right: 7%;
              }
             
         }
