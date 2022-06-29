@@ -1,0 +1,42 @@
+body.active-modal {
+    overflow-y: hidden;
+}
+
+.search-modal{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 20;
+    .overlay {
+        width: 100vw;
+        height: 150vh;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        position: fixed;
+        z-index: 4;
+        // background: rgba(8, 8, 8, 0.8);
+       background: rgba(0, 0, 0, 0.863);
+    }
+    .modal-content{
+        .search-bar{
+            .serach-icon{
+                width: 24px;
+               height: 24px;
+             color: var(--color-gray-600);
+
+             }
+             .search{
+                color: #828285;
+                font-weight: 400;
+                line-height: 1.5;
+             }
+            
+        }
+    }
+}
