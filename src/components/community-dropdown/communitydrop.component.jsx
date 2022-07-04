@@ -26,11 +26,11 @@ export default function FadeMenu() {
         onClick={handleClick}
         
       >
-        Community
+       community
         <IoMdArrowDropdown/>
       </Button>
     
-      <Menu
+      <Menu 
       
         id="fade-menu"
         MenuListProps={{

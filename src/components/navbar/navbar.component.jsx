@@ -6,6 +6,7 @@ import './navbar.styles.scss';
 import FadeMenu from '../community-dropdown/communitydrop.component';
 
 import SearchModal from '../search-model/search-model.component';
+import ResourceMenu from '../resourcesdropdown/resourcesdrop.component';
 
 
 
@@ -23,7 +24,7 @@ const toggleDropdown = () => {
     <ul>
       <li><a className="logo" href='#'>Codecademy</a></li>
       <li><a href='#'>Catalog</a></li>
-      <li onClick={toggleDropdown}>Resources<IoMdArrowDropdown/><ResourceDropdown dropdown={Dropdown}/></li>
+      <li><ResourceMenu/></li>
       <li><FadeMenu/></li>
       <li><a href='#'>Pricing</a></li>
       <li><a href='#'>Business Solutions</a></li>

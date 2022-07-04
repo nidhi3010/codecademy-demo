@@ -1,5 +1,5 @@
 .navbar{
-   //background-color: aquamarine;
+  //background-color: aquamarine;
     margin-left: 6%;
     margin-right: 6%;
     
@@ -11,7 +11,7 @@
             li{
            display: inline-block;
            line-height: 1.5;
-           font-weight: bold;
+          // font-weight: bold;
            float: left;
           //background-color:burlywood;
            padding: 7px 30px 6px 0px;
@@ -29,59 +29,59 @@
         }
  
             }
-            // .search_icon{
-            // //    background-color: brown;
-            //     margin-left: 10%;
-            //     line-height: 1.5rem;
-            //     padding-top: 1rem;
-            //     width: 20px;
-            //     height: 20px;
-            //     &:hover{
-            //         cursor: pointer;
-            //         color: #3A10E5;
-            //        // background-color: rgb(228, 222, 222);
-            //             & .search_icon{
-            //                 opacity: 1;
-            //                 transform: scale(1.2);
-            //                 transition: 0.3s ease-in-out; 
-                            
-            //             }
-            //     }
-                  
-             //   }
-                a{
-                    font-weight: normal;
-                    line-height: 1.5;
-                //background-color: coral;
-                    text-decoration: none;
-                    color: black;
 
-                    &:hover{
-                        cursor: pointer;
-                        color: #3A10E5;
-                        & a{
-                            opacity: 1;
-                            transform: scale(1.2);
-                            transition: 0.3s ease-in-out; 
-                            
-                        }
+
+            a{
+                font-weight: normal;
+                line-height: 1.5;
+            //background-color: coral;
+                text-decoration: none;
+                color: black;
+
+                &:hover{
+                    cursor: pointer;
+                    color: #3A10E5;
+                    & a{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
                     }
-             
                 }
-                .login{
-                  //  background-color: brown;
+         
+            }
+
+     
+          
+            
+
+
+
+
+
+
                 
-                  //  background-color: brown;
-                    margin-left: 3rem;
-                //    padding-bottom: 1rem;
-                padding-top: -3rem;
-               
+                .login{
+                 background-color: burlywood;
+                   margin-left: 52rem;
+               //  margin-top: -2rem;
+                 padding-top: 4rem;
+                
+             //  margin-bottom: -2rem;
                     font-weight: 400;
                     line-height: 1.5;
                     font-size: 20px;
+                    
+                
                   
                 }
             
+            
         }
     
+
+
+        
+
+
 }

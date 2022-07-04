@@ -63,7 +63,7 @@ const SearchModal = ({ handleChange }) => {
 
         )
       }
-      <BsSearch className='search_icon' onClick={toggleModal} />
+      <BsSearch className='navsearch_icon' onClick={toggleModal} />
     </div>
   )
 };

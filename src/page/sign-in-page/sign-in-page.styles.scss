@@ -1,0 +1,187 @@
+.signin{
+ //   background-color: goldenrod;
+      align-items: center;
+      margin-top: 5rem;
+     
+    h1{
+     align-items: center;
+    }
+
+    .email-username{
+       // position: relative;
+     //    background-color: green;
+       
+        label{
+            font-size: .9rem!important;
+            font-weight: 400;
+            display: block;
+    color: var(--color-text);
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+    margin-left:-13rem;
+        }
+        input{
+            color: var(--color-text);
+            position: relative;
+            display: block;
+            height: 2rem;
+            width: 20%;
+            margin-left: 41.3%;
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline #3A10E5;
+                & input{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+        }
+    }
+
+    .password{
+       // background-color: crimson;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        label{
+           // background-color: cadetblue;
+            font-size: .9rem!important;
+            font-weight: 400;
+            display: block;
+            color: var(--color-text);
+            line-height: 1.1;
+            margin-bottom: 0.25rem;
+            margin-left:-16.8rem;
+
+        }
+        input{
+         //  background-color: chocolate;
+           color: var(--color-text);
+            position: relative;
+            display: block;
+            height: 2rem;
+            width: 20%;
+            margin-left: 41.3%;
+            &:hover{
+                cursor: pointer;
+                text-decoration: underline #3A10E5;
+                & input{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+        }
+    }
+
+    .forgot-pswrd{
+     //  background-color: darkcyan;
+       margin-left: -9%;
+       color: #3A10E5;
+       font-weight: 700;
+       line-height: 1.5;
+       text-decoration: none;
+       &:hover{
+        cursor: pointer;
+        text-decoration: underline #3A10E5;
+        & .forgot-pswrd{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+        }
+    }
+      
+    }
+    .btn{
+     //   background-color: darksalmon;
+       display: block;
+       padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+       width: 5rem;
+       font-weight: 600;
+       color: #fff;
+      background-color:#3A10E5;
+      border-radius: 5px;
+      border: none;
+       margin-left: 41.3%;
+       margin-top: 1.5rem;
+       &:hover{
+        cursor: pointer;
+        background-color:#492ac7;
+        & input{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+        }
+    }
+    } 
+
+    .other-option{
+        h3{
+          // background-color: cadetblue;
+           margin-left: -11.5%;
+           font-weight: 700;
+           color: var(--color-text);
+    font-size: 1rem;
+    margin-bottom: 1rem;
+        }
+
+        .otherbtn{
+         //   margin-left: -10.5%;
+         //    background-color: crimson;
+         margin-bottom: 1rem;
+            .linkdin{
+               // background-color: green ;
+                padding: 1rem 1.2rem 1rem 1.2em;
+                margin-right: 1rem;
+            }
+            .google{
+                padding: 1rem 1.2rem 1rem 1.2em;
+                margin-right: 1rem;
+            }
+            .facebook{
+                padding: 1rem 1.2rem 1rem 1.2em;
+                margin-right: 1rem;
+            }
+            .github{
+                padding: 1rem 1.2rem 1rem 1.2em;
+                margin-right: 1rem;
+            }
+            .twitter{
+                padding: 1rem 1.2rem 1rem 1.2em;
+                margin-right: 1rem;
+            }
+        }
+
+        span{
+            font-weight: 400;
+            line-height: 1.5;
+            color: #10162F;
+            margin-left: -4%;
+         
+        }
+        .free-signup{
+            color: #3A10E5;
+            font-weight: 700;
+            line-height: 1.5;
+            text-decoration: none;
+       &:hover{
+        cursor: pointer;
+        text-decoration: underline #3A10E5;
+        & .free-signup{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+        }
+    }
+            a{
+
+            }
+        }
+    }
+    
+}
