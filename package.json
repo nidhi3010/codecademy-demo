@@ -2,7 +2,7 @@
   "name": "codecademydemo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nidhi3010.github.io/codecademy-demo",
+  "homepage": "http://nidhi3010.github.io/codecademy-demo",
   "dependencies": {
     "@ant-design/icons": "4.0.0",
     "@emailjs/browser": "^3.6.2",
