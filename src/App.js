@@ -13,12 +13,10 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Router basename={process.env.PUBLIC_URL || window.location.pathname || ''}>
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/signin' component={SignIn} />
         </Switch>
-      </Router>
     </div>
   );
 }
