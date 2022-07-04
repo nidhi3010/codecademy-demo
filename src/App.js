@@ -13,12 +13,12 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Router>
+     
         <Switch>
           <Route exact path='/' component={HomePage} />
           <Route path='/signin' component={SignIn} />
         </Switch>
-      </Router>
+    
     </div>
   );
 }
