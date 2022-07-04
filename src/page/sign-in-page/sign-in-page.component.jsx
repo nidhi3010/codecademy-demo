@@ -10,7 +10,7 @@ import { BsTwitter } from 'react-icons/bs';
 
 import './sign-in-page.styles.scss';
 import { useHistory } from 'react-router-dom';
-import NavBar from '../../components/navbar/navbar.component';
+
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -30,7 +30,7 @@ const SignIn = () => {
 
   return (
     <div className='signin'>
-    <NavBar />
+    
       <h1>Log in to Codecademy</h1>
       <form action='' onSubmit={submitForm}>
         <div className='email-username'>
