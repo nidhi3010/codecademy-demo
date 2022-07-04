@@ -9,6 +9,8 @@ import { BsTwitter } from 'react-icons/bs';
 
 
 import './sign-in-page.styles.scss';
+import { useHistory } from 'react-router-dom';
+import NavBar from '../../components/navbar/navbar.component';
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -23,11 +25,12 @@ const SignIn = () => {
     setAllEntry([...allEntry, newEntry]);
     console.log(allEntry);
   }
-  
+  const history = useHistory("");
 
 
   return (
     <div className='signin'>
+    <NavBar />
       <h1>Log in to Codecademy</h1>
       <form action='' onSubmit={submitForm}>
         <div className='email-username'>
@@ -59,7 +62,7 @@ const SignIn = () => {
             <button type='submit' className='twitter'><BsTwitter /></button>
           </div>
           <span>Not a member yet? </span>
-          <a href='#' className='free-signup'>Sign up for free</a>
+          <div className='free-signup' onClick={() => history.push("/")}>Sign up for free</div>
         </div>
 
 

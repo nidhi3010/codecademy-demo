@@ -12,11 +12,10 @@ import SignIn from './page/sign-in-page/sign-in-page.component';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-        <Switch>
-          <Route exact path='/' component={HomePage} />
-          <Route path='/signin' component={SignIn} />
-        </Switch>
+      <Switch>
+        <Route exact path='/' component={HomePage} />
+        <Route path='/signin' component={SignIn} />
+      </Switch>
     </div>
   );
 }
