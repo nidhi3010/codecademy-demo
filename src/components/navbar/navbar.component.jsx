@@ -7,7 +7,7 @@ import FadeMenu from '../community-dropdown/communitydrop.component';
 
 import SearchModal from '../search-model/search-model.component';
 import ResourceMenu from '../resourcesdropdown/resourcesdrop.component';
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 
 
@@ -33,7 +33,9 @@ const toggleDropdown = () => {
      
        <SearchModal/>
      
-      <a className='login' href='#'>Log In</a>
+      <Link className='login' to="signin">
+      Log In
+      </Link>
       
     </ul>
 
