@@ -29,6 +29,7 @@ const toggleDropdown = () => {
       <li><ResourceMenu/></li>
       <li><FadeMenu/></li>
       <li onClick={() => history.push("/")}>Pricing</li>
+      
       <li><a href='#'>Business Solutions</a></li>
      
        <SearchModal/>
