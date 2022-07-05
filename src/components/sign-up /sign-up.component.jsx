@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useEffect, useState} from 'react';
 
 import './sign-up.styles.scss';
 
@@ -19,24 +19,38 @@ const SignUp = () => {
      setIsSubmit(true);
   };
 
+  useEffect(() => {
+     console.log(formErrors);
+     if(Object.keys(formErrors).length === 0 && isSubmit) {
+     console.log(formValues);
+     } 
+  },[formErrors])
+
   const validate = (values) => {
      const errors = {};
      const regex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
      if (!values.email) {
-        errors.email = "please enter valid email!";
+        errors.email = "Please enter a valid email address.";
+     } else if (!regex.test(values.email)){
+        errors.email = "Please enter a valid email address.";
      }
-     if(!values.password) {
-        errors.password = "please enter valid password!";
+     if (!values.password) {
+        errors.password = "Password must include at least 8 characters.";
+       }else if (values.password < 8) {
+          errors.password = "Password must include at least 8 characters.";
        }
        return errors; 
   };
-
+ 
 return(
        <div className='sign-up'>
           <img src='https://www.codecademy.com/webpack/73cf4baedce567ebc4ec4b42d0df1927.jpg'/>
           <div className='signup-part'>
-          <form>
-             <h1>Join the millions learning to code with Codecademy for free</h1>
+          <form onSubmit={handleSubmit}>
+             <h1>Join the millions learning to code <br />
+              with Codecademy for free<br />
+              </h1>
+            
              <div className='email'>
                 <label htmlFor='email'>Email</label>
                 <input 
@@ -48,6 +62,7 @@ return(
                 />
                 
              </div>
+             <p>{formErrors.email}</p>
              <div className='paswrd'>
                <label htmlFor='password'>Password</label>
                <input 
@@ -58,6 +73,7 @@ return(
                onChange={handleChange}
                />
                 </div>
+                <p>{formErrors.password}</p>
                 <button type='submit' className='signup'>Sign Up</button>
 
              </form>

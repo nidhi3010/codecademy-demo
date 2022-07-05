@@ -14,7 +14,7 @@ const SearchModal = ({ handleChange }) => {
   const toggleModal = () => {
     setModal(!modal);
   };
-
+  
   if (modal) {
     document.body.classList.add('active-modal')
   } else {
