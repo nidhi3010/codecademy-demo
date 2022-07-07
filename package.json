@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "http://nidhi3010.github.io/codecademy-demo",
   "dependencies": {
-    "@ant-design/icons": "4.0.0",
+    "@ant-design/icons": "^4.7.0",
     "@emailjs/browser": "^3.6.2",
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",

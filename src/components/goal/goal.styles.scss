@@ -1,0 +1,112 @@
+.goal{
+    margin-left: 16%;
+    margin-right: 16%;
+    //background-color: #FFF0E5;
+    margin-top: 5rem;
+    width: 30%;
+    h2{
+        font-weight: 700;
+        line-height: 1.1;
+        padding-bottom: 1rem;
+        text-align: left;
+        font-size: 2.75rem;
+        color: #10162F;
+        font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue";
+    }
+
+    .goal-option{
+    //   background-color: darkseagreen;
+        text-align: left;
+        width: 70%;
+      
+    .g-1{
+   //     background-color: darkslateblue;
+       padding-bottom: 1rem;
+       padding-top: 1rem;
+       margin-top: 4rem;
+        &:hover{
+            cursor: pointer;
+           background-color: #F5FCFF;
+           padding-left: 0.5rem;
+       
+         
+            & .g-1{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 10s ease-in-out; 
+                
+                
+            }
+        }
+        h3{
+            color: #10162F;
+            font-size: 1.625rem;
+
+        }
+        p{
+            font-size: 1rem;
+            color: #10162F;
+            white-space: normal;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+    }
+
+    .g-2{
+        border-top: 1px solid #10162F;
+      
+        border-bottom: 1px solid #10162F;
+      //  background-color: dimgray;
+      padding-bottom: 1rem;
+       padding-top: 1rem;
+  //     width: 100%;
+        &:hover{
+            cursor: pointer;
+           background-color: #F5FCFF;
+           padding-left: 0.5rem;
+       
+         
+            & .g-2{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 10s ease-in-out; 
+                // transform: scale(2);
+                // transition-duration: 15s;
+                
+            }
+        }
+        h3{
+            color: #10162F;
+            font-size: 1.625rem;
+        }
+    }
+
+    .g-3{
+        // border-top: 1px solid #10162F;
+        
+      //  background-color: darkturquoise;
+  //    width: 120%;
+         padding-bottom: 1rem;
+         padding-top: 1rem;
+        &:hover{
+            cursor: pointer;
+           background-color: #F5FCFF;
+           padding-left: 0.5rem;
+       
+         
+            & .g-3{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 10s ease-in-out; 
+                // transform: scale(2);
+                // transition-duration: 15s;
+                
+            }
+        }
+        h3{
+            color: #10162F;
+            font-size: 1.625rem;
+        }
+    }
+}
+}

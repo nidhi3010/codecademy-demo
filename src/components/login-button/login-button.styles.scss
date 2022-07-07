@@ -1,0 +1,27 @@
+.login-btn{
+   // background-color: darkcyan;
+  margin-top: -1.5rem;
+      margin-left: 75rem;
+    .login{
+    // background-color: burlywood;
+    //   margin-left: 75rem;
+       font-weight: 700;
+        line-height: 1.5;
+       font-size: 20px;
+       text-decoration: none;
+       color: black;
+       font-size: 1rem;
+
+       &:hover{
+           cursor: pointer;
+           color: #3A10E5;
+           & a{
+               opacity: 1;
+               transform: scale(1.2);
+               transition: 0.3s ease-in-out; 
+               
+           }
+       }
+    }
+     
+   }

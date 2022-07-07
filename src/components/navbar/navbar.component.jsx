@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import ResourceDropdown from '../resourcesdropdown/resourcesdrop.component';
 
-import { IoMdArrowDropdown } from "react-icons/io";
+
 import './navbar.styles.scss';
 import FadeMenu from '../community-dropdown/communitydrop.component';
 
 import SearchModal from '../search-model/search-model.component';
 import ResourceMenu from '../resourcesdropdown/resourcesdrop.component';
 import { Link, useHistory } from 'react-router-dom';
+import LoginButton from '../login-button/login-button.component';
 
 
 
@@ -34,12 +35,11 @@ const toggleDropdown = () => {
      
        <SearchModal/>
      
-      <Link className='login' to="signin">
-      Log In
-      </Link>
-      
+       <LoginButton/>
     </ul>
+   
 
-  </div>)
+  </div>
+  )
 }
 export default NavBar;
