@@ -13,20 +13,22 @@ import Quiz from '../../components/quiz/quiz.component.jsx';
 import StoriesPeople from '../../components/stories-people/stories-people.component.jsx';
 import JoinIn from '../../components/join-in/join-in.component.jsx';
 import TeamSkill from '../../components/team-skill/team-skill.component.jsx';
+import StartForFree from '../../components/start-for-free/start-for-free.component.jsx';
 
 
 const HomePage = () => (
     <div className='home-page'>
-    
+
         <SignUp />
         <Goal />
-        <SkillPath/>
-    <CodeDrawer/>   
-     <BeginnerWelcome />
-     <Quiz/>
-     <StoriesPeople/>
-     <JoinIn/>
-     <TeamSkill/>
+        <SkillPath />
+        <CodeDrawer />
+        <BeginnerWelcome />
+        <Quiz />
+        <StoriesPeople />
+        <JoinIn />
+        <TeamSkill />
+        <StartForFree />
     </div>
 )
 export default HomePage;
