@@ -3,8 +3,9 @@ body.active-modal {
     background-color: rgb(221, 217, 217);
 }
 .navsearch_icon{
-//  background-color: brown;
-   margin-left: 20%;
+ 
+  // margin-left: 20%;
+ margin-right: 18%;
   line-height: 1.5rem;
   padding-top: 0.8rem;
   width: 20px;
@@ -25,8 +26,7 @@ body.active-modal {
 
 
 .search-modal{
-   // width: 100vw;
-  //  height: 100vh;
+   
   width: 100vw;
   height: 50vh;
     top: 0;
@@ -37,8 +37,7 @@ body.active-modal {
     z-index: 20;
     .overlay {
          width: 100vw;
-      //   height: 50vh;
-      height: 30vh;
+         height: 30vh;
     
         top: 5rem;
         left: 0;
@@ -46,8 +45,6 @@ body.active-modal {
         bottom: 0;
         position: fixed;
         z-index: -1;
-        // background: rgba(8, 8, 8, 0.8);
-      // background: rgba(231, 227, 227, 0.863);
       background-color: #fff ;
        border-bottom: 1px black solid;
     }

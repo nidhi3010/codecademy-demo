@@ -33,12 +33,13 @@ const toggleDropdown = () => {
       
       <li><a href='#'>Business Solutions</a></li>
      
-       <SearchModal/>
-     
-       <LoginButton/>
+      
     </ul>
    
-
+    <SearchModal/>
+     
+    <LoginButton/>
+    
   </div>
   )
 }

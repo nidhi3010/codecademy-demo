@@ -1,7 +1,6 @@
 .stories-of-people{
    
     .heading{
-       // background-color: cornflowerblue;
         margin-left: 17%;
         margin-right: 17%;
         margin-top: 5rem;
@@ -21,7 +20,6 @@
             color: #10162F;
             text-align: left;
             margin-top: -2rem;
-        //    background-color: crimson;
         }
         a{
             font-weight: 700;
@@ -51,7 +49,6 @@
 
 
     .people-profile{
-     //   background-color: darkkhaki;
         margin-top: 3rem;
        display: flex;
        margin-left: 17%;
@@ -272,3 +269,12 @@
 
     }
 }
+
+
+// @media (max-width: 767px)
+// {
+//     .people-profile{
+//         background-color: aqua;
+//         display: flex;
+//     }
+// }

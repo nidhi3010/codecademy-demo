@@ -13,7 +13,7 @@
            font-size: 1.4rem;
            color: #ffffff;
            margin-bottom: 0%;
-      //     background-color: antiquewhite;
+       //  background-color: antiquewhite;
         }
         small{
             padding-top: -3%;
@@ -33,18 +33,19 @@
             font-size: 1rem;
             color: #ffffff;
             margin-top: -1%;
+            margin-bottom: 2.5%;
         }
         a{
             text-decoration: none;
             border-radius: 4px;
-    font-weight: 700;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.50rem;
-    padding-bottom: 0.50rem;
-    font-size: 1rem;
-    color: #10162F;
-    background-color: #FFD300;
+            font-weight: 700;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.50rem;
+            padding-bottom: 0.50rem;
+            font-size: 1rem;
+            color: #10162F;
+            background-color: #FFD300;
     &:hover{
         cursor: pointer;
        background-color: #CCA900;

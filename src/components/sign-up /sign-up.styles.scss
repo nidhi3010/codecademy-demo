@@ -2,7 +2,7 @@
     margin-top: 4rem;
     margin-left: 15%;
     margin-right: 15%;
-    // background-color: green;
+    padding-top: 6%;
     img{
         width: 500px;
         height: 400px;
@@ -226,4 +226,41 @@
         }
     }
 }
+
+
+
+
+
+
+// @media only screen and (max-width: 768px)
+//  {
+//   .signup-part{
+//      display: grid;
+//      width: 100%;
+//       .email {
+//           background-color: crimson;
+//           text-align: left;
+//       //    padding-left: -30%;
+//           label{
+//             background-color: darkblue;
+           
+//           }
+//           input{
+//              // background-color: cornflowerblue;
+//              width: 100%;
+              
+//           }
+//       }
+   
+//   }
+//   img{
+//     vertical-align: middle;
+//     width: 100px;
+//     height: 100px;
+//   }
+//   .other-btn{
+//       display: inline-block;
+//   }
+
+//  }
 

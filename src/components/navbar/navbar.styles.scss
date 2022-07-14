@@ -1,20 +1,23 @@
 .navbar{
-    margin-left: 15%;
-    margin-right: 15%;
-    padding-top: 1.5%;
- 
-  //  background-color: darkcyan;
+    padding-bottom: 1rem;
+    padding-left: 15%;
+    width: 100%;
+    margin-top: -2.4%;
+    position: fixed;
+    background-color:#ffffff;
+    border-bottom: 1px solid #10162F;
+    z-index: +3;
     
         ul{
             list-style-type: none;
              box-sizing: border-box;
-            
+           
            
             li{
            display: inline-block;
            line-height: 1.5;
            font-size: 1rem;
-          // background-color:darkgoldenrod;
+        
            float: left;
            padding: 7px 30px 6px 0px;
            
@@ -51,27 +54,20 @@
                 }
          
             }
-
-     
-                
-                // .login{
-                //  background-color: burlywood;
-                //    margin-left: 75rem;
-                //     font-weight: 400;
-                //     line-height: 1.5;
-                //     font-size: 20px;
-                  
-                
-                  
-                // }
             
             
         }
-    
-
- 
-
-        
-
 
 }
+
+
+//  @media (max-width: 1200px)
+//  {
+//    ul{
+//              display: none;
+//  }
+//  .logo{
+//      display: block;
+//  }
+
+//  }
