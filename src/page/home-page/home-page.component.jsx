@@ -16,9 +16,10 @@ import TeamSkill from '../../components/team-skill/team-skill.component.jsx';
 import StartForFree from '../../components/start-for-free/start-for-free.component.jsx';
 import Footer from '../../components/footer/footer.component';
 
+
 const HomePage = () => (
     <div className='home-page'>
-
+       
         <SignUp />
         <Goal />
         <SkillPath />

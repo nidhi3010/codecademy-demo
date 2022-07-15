@@ -1,0 +1,213 @@
+.sign-up-page{
+    margin-top: 3.4%;
+   
+    h1{
+        font-size: 1.625rem;
+        color: #10162F;
+        padding-top: 5%;
+        text-align: left;
+        margin-left: 41.5%;
+    }
+
+    .e-mail{
+       margin-left: 41.5%;
+        label{
+            font-size: 1rem;
+            font-weight: 500;
+            display: block;
+            color: #10162F;
+            line-height: 1.1;
+            margin-bottom: 0.25rem;
+            text-align: left;
+        
+        }
+        input{
+            color: #10162F;
+            position: relative;
+            display: block;
+            height: 2.5rem;
+            border: 1px solid  #10162F;
+            border-radius: 2px;
+            width: 30%;
+            
+    
+            &:hover{
+                cursor: pointer;
+                border: 1px solid #3A10E5;
+                & input{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.10s ease-in-out; 
+                    
+                }
+            }
+        }
+    }
+
+    p{
+        color: #BE1809;
+        font-size: small;
+        text-align: left;
+        margin-left: 56%;
+        margin-top: 0%;
+    }
+
+    .passwrd{
+           margin-left: 41.5%;
+           margin-top: 2%;
+           margin-bottom: 2%;
+            label{
+                font-size: 1rem;
+                font-weight: 500;
+                display: block;
+                color: #10162F;
+                line-height: 1.1;
+                margin-bottom: 0.25rem;
+                text-align: left;
+            .alert{
+                text-align: right;
+                margin-left: 22%;
+                margin-bottom: -0.3%;
+                color:#10162F;
+                
+            }
+            }
+            input{
+                color: #10162F;
+                position: relative;
+                display: block;
+                height: 2.5rem;
+                border: 1px solid  #10162F;
+                border-radius: 2px;
+                width: 30%;
+            
+                &:hover{
+                    cursor: pointer;
+                    border: 1px solid #3A10E5;
+                    & input{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+
+        }
+
+        .signup-butn{
+            border-radius:  4px;
+            margin-left: 41.5%;
+            display: block;
+            padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+            font-size: 1rem;
+            width: 6rem;
+            font-weight: 700;
+            color: #fff;
+           background-color:#3A10E5;
+           border: none;
+           margin-bottom: 2rem;
+         
+            &:hover{
+             cursor: pointer;
+             background-color:#492ac7;
+             & input{
+                 opacity: 1;
+                 transform: scale(1.2);
+                 transition: 0.3s ease-in-out; 
+                 
+             }
+         }
+        }
+
+        .signing{
+            font-weight: 400;
+            line-height: 1.5;
+            font-size: 0.875rem;
+            color: #424242;
+            text-align: left;
+            margin-left: 3%;
+        }
+
+
+        .ser-poly{
+              display: flex;
+             margin-left: 41.4%;
+              font-weight: 400;
+              line-height: 1.5;
+              font-size: 0.875rem;
+            .terms-of-service{
+            //   display: block;
+            //   margin-left: 56%;
+              color: #3A10E5;
+              line-height: 1.5;
+             text-decoration: none;
+       &:hover{
+        cursor: pointer;
+        text-decoration: underline #3A10E5;
+        & .termsofservice{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+        }
+    }
+            }
+            
+            .pri-vacy{
+               
+                  color: #3A10E5;
+              line-height: 1.5;
+             text-decoration: none;
+           
+             &:hover{
+               cursor: pointer;
+               text-decoration: underline #3A10E5;
+             & .terms-of-service{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+            }
+         }
+                 
+    }
+}
+
+        .other-op{
+            margin-left: 41.3%;
+    h3{
+       font-weight: 700;
+       color: var(--color-text);
+       font-size: 1rem;
+       margin-bottom: 1rem;
+       line-height: 1.1;
+       text-align: left;
+
+    }
+    .otherbtn{
+       text-align: left;
+       .linkdin{
+            padding: 1rem 1.2rem 1rem 1.2em;
+            margin-right: 1rem;
+        }
+        .google{
+            padding: 1rem 1.2rem 1rem 1.2em;
+            margin-right: 1rem;
+        }
+        .facebook{
+            padding: 1rem 1.2rem 1rem 1.2em;
+            margin-right: 1rem;
+            color: rgb(72, 72, 233);
+        }
+        .github{
+            padding: 1rem 1.2rem 1rem 1.2em;
+            margin-right: 1rem;
+         
+        }
+       
+    }
+   
+       }
+        
+}

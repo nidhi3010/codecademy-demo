@@ -7,7 +7,8 @@ import NavBar from './components/navbar/navbar.component';
 
 import HomePage from './page/home-page/home-page.component';
 import SignIn from './page/sign-in-page/sign-in-page.component';
-
+import CatalogPage from './page/catalog-page/catalog-page.component';
+import SignUpPage from './page/sign-up-page/sign-up-page.component';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Switch>
         <Route exact path='/' component={HomePage} />
         <Route path='/signin' component={SignIn} />
+        <Route path='/signup' component = {SignUpPage} />
+        <Route path='/catalog' component={CatalogPage} />
       </Switch>
     </div>
   );

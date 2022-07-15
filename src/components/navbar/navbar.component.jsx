@@ -9,6 +9,7 @@ import SearchModal from '../search-model/search-model.component';
 import ResourceMenu from '../resourcesdropdown/resourcesdrop.component';
 import { Link, useHistory } from 'react-router-dom';
 import LoginButton from '../login-button/login-button.component';
+import SignUpButton from '../signup-button/signup-button.component';
 
 
 
@@ -26,7 +27,9 @@ const toggleDropdown = () => {
 
     <ul>
       <li><div className="logo" onClick={() => history.push("/")}>Codecademy</div></li>
-      <li><a href='#'>Catalog</a></li>
+    <li><Link className='cata-log' to="catalog">
+      Catalog
+    </Link></li>
       <li><ResourceMenu/></li>
       <li><FadeMenu/></li>
       <li onClick={() => history.push("/")}>Pricing</li>
@@ -39,6 +42,7 @@ const toggleDropdown = () => {
     <SearchModal/>
      
     <LoginButton/>
+    <SignUpButton/>
     
   </div>
   )
