@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/codecademy-demo/static/css/main.d9770dde.css",
-    "main.js": "/codecademy-demo/static/js/main.bdc8dfe6.js",
+    "main.css": "/codecademy-demo/static/css/main.fc704095.css",
+    "main.js": "/codecademy-demo/static/js/main.181f0199.js",
     "static/js/787.d267a10f.chunk.js": "/codecademy-demo/static/js/787.d267a10f.chunk.js",
+    "static/media/slick.svg": "/codecademy-demo/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/codecademy-demo/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/codecademy-demo/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/codecademy-demo/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/codecademy-demo/index.html",
-    "main.d9770dde.css.map": "/codecademy-demo/static/css/main.d9770dde.css.map",
-    "main.bdc8dfe6.js.map": "/codecademy-demo/static/js/main.bdc8dfe6.js.map",
+    "main.fc704095.css.map": "/codecademy-demo/static/css/main.fc704095.css.map",
+    "main.181f0199.js.map": "/codecademy-demo/static/js/main.181f0199.js.map",
     "787.d267a10f.chunk.js.map": "/codecademy-demo/static/js/787.d267a10f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9770dde.css",
-    "static/js/main.bdc8dfe6.js"
+    "static/css/main.fc704095.css",
+    "static/js/main.181f0199.js"
   ]
 }
