@@ -44,15 +44,19 @@
         }
     }
 
-    p{
-        color: #BE1809;
-        font-size: small;
-        text-align: left;
-        margin-left: 56%;
-        margin-top: 0%;
-    }
+    
+        p{
+           color: #BE1809;
+           font-size: small;
+           text-align: left;
+           margin-left: 41.5%;
+           margin-top: 0%;
+        //    background-color: yellow;
+        }
+    
 
     .passwrd{
+       // background-color:violet;
            margin-left: 41.5%;
            margin-top: 2%;
            margin-bottom: 2%;
@@ -136,7 +140,8 @@
               font-weight: 400;
               line-height: 1.5;
               font-size: 0.875rem;
-            .terms-of-service{
+
+            .termsofservice{
             //   display: block;
             //   margin-left: 56%;
               color: #3A10E5;
@@ -163,7 +168,7 @@
              &:hover{
                cursor: pointer;
                text-decoration: underline #3A10E5;
-             & .terms-of-service{
+             & .pri-vacy{
             opacity: 1;
             transform: scale(1.2);
             transition: 0.3s ease-in-out; 

@@ -1,7 +1,123 @@
 
-
-.catalog-page{
- //   background-color: darkgreen;
-    margin-top: 3.4%;
+.lang-accordion{
+  
+  padding-top: 5%;
   
 }
+
+.catalog-page{  
+  margin-top: 3.4%;
+
+    .full-catalog{
+   
+      text-decoration: none;
+      color: #10162F;
+      line-height: 5rem;
+      margin-left: -60.2%;
+    
+
+ }
+
+    .where-do-i-begin{
+        display: flex;
+        text-decoration: none;
+        color: #10162F;
+        width: 10%;
+        margin-left: 17.5%;
+ }
+
+    
+    .take-quize{
+      background-color: #FFD300;
+      margin-top: -11%;
+      height: 5rem;
+      width: 46.5%;
+      margin-left: 36%;
+   
+      p{
+        padding-top: 1.8rem;
+        font-size: 1.375rem;
+        color: #10162F;
+        &:hover{
+          cursor: pointer;
+          color:#3A10E5;
+          & p{
+              opacity: 1;
+              transform: scale(1.2);
+              transition: 0.3s ease-in-out; 
+              
+          }
+      }
+        span{
+          font-size: 1.375rem;
+          font-weight: bold;
+          color: #3A10E5;
+          &:hover{
+            cursor: pointer;
+            text-decoration: underline #3A10E5;
+            & span{
+                opacity: 1;
+                transform: scale(1.2);
+                transition: 0.3s ease-in-out; 
+                
+            }
+        }
+        }
+      }
+    
+    }
+        h2{
+          font-weight: 700;
+          line-height: 1.1;
+          font-size: 2.125rem;
+          color: #10162F;
+          width: 20%;
+          margin-left: 33.7%;
+        
+        }
+
+        h3{
+          font-weight: 700;
+          line-height: 1.1;
+          font-size: 1.25rem;
+          padding-bottom: 0.5rem;
+          color: #10162F;
+          margin-left: -12.6%;
+       
+         
+        }
+
+        .courses{
+          font-weight: 700;
+          line-height: 1.1;
+          font-size: 1.25rem;
+          padding-bottom: 0.5rem;
+          color: #10162F;
+          text-align: left;
+          width:20%;
+          margin-top: 2rem;
+         margin-left: 35.9%;
+      //  margin-left: 36%;
+        //  background-color: yellow;
+        }
+  
+
+    
+     
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

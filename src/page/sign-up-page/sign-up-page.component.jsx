@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-import NavBar from '../../components/navbar/navbar.component';
+
 
 import './sign-up-page.styles.scss';
 

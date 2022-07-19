@@ -1,33 +1,30 @@
 import React from "react";
+import AllLevelsMenu from "../../components/all-levels-dropdown/all-levels-dropdown.component";
 
-import { RiArrowDropUpLine } from 'react-icons/ri';
+
+import LanguageAccordion from "../../components/language-accordion/language-accordion";
+import ProCourseMenu from "../../components/pro-courses-dropdown/pro-courses-dropdown.component";
+import SubjectAccordion from "../../components/subject-accordion/subject-accordion.component";
+import SubLangCarousel from "../../components/subject-lang-carousel/subject-lang-carousel.component";
 
 import './catalog-page.styles.scss';
 
 
 const CatalogPage = () => (
     <div className="catalog-page">
-        <div className="language">
-            <p>Languages<RiArrowDropUpLine /></p>
-            <ul>
-                <li><a href="#">HTML & CSS</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">Java Script</a></li>
-                <li><a href="#">Java</a></li>
-                <li><a href="#">SQL</a></li>
-                <li><a href="#">Bash/Shell</a></li>
-                <li><a href="#">Ruby</a></li>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">R</a></li>
-                <li><a href="#">C#</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">Go</a></li>
-                <li><a href="#">Swift</a></li>
-                <li><a href="#">Kotlin</a></li>
-                <li><a href="#">C</a></li>
-            </ul>
+        <LanguageAccordion />
+        <SubjectAccordion />
+        <a className="full-catalog" href="#">Full Catalog</a>
+        <a className="where-do-i-begin" href="#">Where do I begin</a>
+        <div className="take-quize">
+            <p>Not sure where to begin? <span>Take our quiz →</span></p>
         </div>
-
+        <h2>Explore the catalog</h2>
+        <h3>Popular subjects and languages</h3>
+       <SubLangCarousel />
+       <h3 className="courses">Most popular courses</h3>
+       <ProCourseMenu/>
+       <AllLevelsMenu/>
     </div>
 )
 
