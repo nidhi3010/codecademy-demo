@@ -1,0 +1,37 @@
+.course-pagiantion{
+   // background-color: chocolate;
+    ul{
+        list-style-type: none;
+    //    background-color: cornflowerblue;
+        margin-top: 2rem;
+        li{
+        
+          display: inline-block;
+     
+          a{
+          
+              text-decoration: none;
+              border-radius: 4px;
+              margin-left: 0.25rem;
+             
+              margin-right: 0.25rem;
+              font-size: 1.5rem;
+              padding: 0.5rem;
+              color: #10162F;
+              &:hover{
+                cursor: pointer;
+               padding: 5px;
+               border: 2px solid  #10162F;
+                & a{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 10s ease-in-out; 
+                    
+                    
+                }
+            }
+          }
+         
+        }
+    }
+}

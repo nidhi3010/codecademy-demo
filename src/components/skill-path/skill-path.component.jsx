@@ -13,8 +13,6 @@ const SkillPath = () => {
 
     return (
         <div className="skill-path">
-            <rect className="dot" fill="url(#DotLoose-pattern-3)"></rect>
-
             <div className="path1-2">
                 <div className="path-1">
                     <p className="p1"><span>Pro</span> Skill Path</p>
@@ -47,10 +45,10 @@ const SkillPath = () => {
                     <span className="s4">With Final Project</span>
                 </div>
             </div>
-            <div className='catalog-btn' onClick={() => history.push("/")}>Browse Catalog<BiRightArrowAlt className="arrow"/></div>
-       
-       
-            </div>
+            <div className='catalog-btn' onClick={() => history.push("/")}>Browse Catalog<BiRightArrowAlt className="arrow" /></div>
+
+
+        </div>
     )
 }
 

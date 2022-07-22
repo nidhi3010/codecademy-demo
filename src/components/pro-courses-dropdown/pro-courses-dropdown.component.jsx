@@ -19,7 +19,7 @@ export default function ProCourseMenu() {
     return (
         <div>
             <Button
-                style={{"backgroundColor":"yellow","marginLeft":"-17.7%","color":"#10162F"}}
+                style={{ "marginLeft": "-17.7%", "color": "#10162F", "border": "1px solid #10162F", "backgroundColor": "#ffffff" }}
                 id="fade-button"
                 aria-controls={open ? 'fade-menu' : undefined}
                 aria-haspopup="true"
@@ -28,11 +28,11 @@ export default function ProCourseMenu() {
 
             >
                 Free + Pro courses
-                <BiChevronDown style={{"fontSize":"1.5rem"}} />
+                <BiChevronDown style={{ "fontSize": "1.5rem" }} />
             </Button>
 
             <Menu
-               
+
                 id="fade-menu"
                 MenuListProps={{
                     'aria-labelledby': 'fade-button',
@@ -42,7 +42,7 @@ export default function ProCourseMenu() {
                 onClose={handleClose}
                 TransitionComponent={Fade}
             >
-                <MenuItem  style={{"backgroundColor":"darkcyan"}} onClick={handleClose}>Free + Pro courses</MenuItem>
+                <MenuItem onClick={handleClose}>Free + Pro courses</MenuItem>
                 <MenuItem onClick={handleClose}>Free courses</MenuItem>
                 <MenuItem onClick={handleClose}>Pro courses</MenuItem>
             </Menu>

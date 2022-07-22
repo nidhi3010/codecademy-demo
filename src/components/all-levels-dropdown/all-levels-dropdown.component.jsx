@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Fade from '@mui/material/Fade';
-import {BiChevronDown } from 'react-icons/bi';
+import { BiChevronDown } from 'react-icons/bi';
 //import './pro-courses-dropdown.styles.scss';
 
 export default function AllLevelsMenu() {
@@ -19,7 +19,7 @@ export default function AllLevelsMenu() {
     return (
         <div>
             <Button
-
+                style={{ "color": "#10162F", "border": "1px solid #10162F", "backgroundColor": "#ffffff", "marginTop": "-3%", "marginLeft": "3%" }}
                 id="fade-button"
                 aria-controls={open ? 'fade-menu' : undefined}
                 aria-haspopup="true"
@@ -28,7 +28,7 @@ export default function AllLevelsMenu() {
 
             >
                 All levels
-                <BiChevronDown/>
+                <BiChevronDown style={{ "fontSize": "1.5rem" }} />
             </Button>
 
             <Menu

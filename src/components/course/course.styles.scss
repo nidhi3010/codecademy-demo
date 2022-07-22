@@ -1,0 +1,111 @@
+.course{
+   // background-color: crimson;
+   //text-align: left;
+   margin-left: 35.7%;
+//   width:50%;
+margin-right: 17%;
+
+    .container{
+       // background-color: aquamarine;
+        // columns: 3;
+        // column-gap: 2rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+        //display: grid;
+        
+        
+        
+        .colm{
+           // background-color: burlywood;
+            
+            .card{
+              
+                
+                min-height: 11.25rem;
+                border: 1px solid #10162F;
+                background: #ffffff;
+                &:hover{
+                    cursor: pointer;
+                   padding: 5px;
+                    box-shadow: 10px 10px #10162F;
+                    & .card{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 10s ease-in-out; 
+                        
+                        
+                    }
+                }
+                .card-body{
+                    text-align: left;
+
+                    .pro-title{
+                      
+                 //     background-color: brown;
+                      font-size: 0.875rem;
+                      margin-left: 1rem;
+                      color: #10162F;
+                      margin-bottom: 0.75rem;
+                      margin-top: 1rem;
+                      font-weight: 500;
+                    
+                      
+                           
+                            span{
+                                font-size: 1rem;
+                                color: #ffffff;
+                                background-color: #10162F;
+                                height: 16px;
+                                margin-right: 0.5rem;
+                          }    
+                    
+                    }
+                    h3{
+                        font-weight: 700;
+                        line-height: 1.1;
+                        font-size: 1.25rem;
+                       margin-bottom: 0rem;
+                       color: #10162F;
+                      //  background-color: burlywood;
+                        margin-left: 1.5rem;
+                       margin-top: 0.6rem;
+                    }
+                    li{
+                     margin-left: 1.5rem;
+                        
+                    .num-body{
+                   //     text-align: left;
+                 //  background-color:cadetblue;
+                  font-size: 0.875rem;
+                  color: #10162F;
+                  font-weight: 400;
+                  margin-left: 1rem;
+                  line-height: 1.5;
+                  margin-top: -1.3rem;
+                            b{
+
+                            }
+                        
+                    }
+                }
+                    .bottm{
+                  //   text-align: right;
+                  font-weight: 700;
+                  line-height: 1.1;
+                 padding-top: 0.25rem;
+                 padding-bottom: 0.20rem;
+                 padding-right: 0.5;
+                 font-size: 0.875rem;
+                 background-color:#F5FCFF;
+                color: #10162F;
+                position: absolute;
+                margin-top: 2.84rem;
+                margin-left: 9.2rem;
+                  
+                    }
+                }
+            }
+        }
+    }
+}

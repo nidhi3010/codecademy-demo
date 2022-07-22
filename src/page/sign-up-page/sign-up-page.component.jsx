@@ -10,7 +10,6 @@ import { FcGoogle } from 'react-icons/fc';
 import { GrFacebook } from 'react-icons/gr';
 import { BsGithub } from 'react-icons/bs';
 
- 
 const SignUpPage = () => {
    const initialValues = { email: "", password: "" };
    const [formValues, setFormValues] = useState(initialValues);
