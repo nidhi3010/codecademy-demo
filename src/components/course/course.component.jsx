@@ -96,7 +96,7 @@ function Course() {
             title: "Learn React",
             body: "Intermediate",
             num: "18",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -114,7 +114,7 @@ function Course() {
             title: "Learn C",
             body: "Beginner friendly",
             num: "10",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -187,8 +187,7 @@ function Course() {
             title: "Learn the Command Line",
             body: "Beginner friendly",
             num: "4",
-            less: "Lessons",
-            // bottom: "Language Fluency"
+            less: "Lessons"
         },
         {
             id: "21",
@@ -206,7 +205,7 @@ function Course() {
             title: "Learn Git & GitHub",
             body: "Beginner friendly",
             num: "5",
-            less: "Lessons",
+            less: "Lessons"
             //   bottom: "Language Fluency"
         },
         {
@@ -215,7 +214,7 @@ function Course() {
             title: "Introduction to Cybersecurity",
             body: "Beginner friendly",
             num: "2",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -224,7 +223,7 @@ function Course() {
             title: "Learn Intermediate CSS",
             body: "Intermediate",
             num: "10",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -240,7 +239,7 @@ function Course() {
             id: "26",
             pretitle: "Course",
             title: "Python for Programmers",
-            body: "Intermediate",
+            body: "Intermediate"
             //num: "11",
             // less: "lessons",
             // bottom: "Language Fluency"
@@ -251,7 +250,7 @@ function Course() {
             title: "Learn Node.js",
             body: "Intermediate",
             num: "4",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -260,7 +259,7 @@ function Course() {
             title: "Learn Game Development with Phaser.js",
             body: "Intermediate",
             num: "6",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -278,7 +277,7 @@ function Course() {
             title: "How to Make a Website with NameCheap",
             body: "Beginner friendly",
             num: "5",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -287,7 +286,7 @@ function Course() {
             title: "Learn Intermediate Java",
             body: "Intermediate",
             num: "8",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -297,7 +296,7 @@ function Course() {
             title: "Learn Bash Scripting",
             body: "Intermediate",
             num: "1",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -306,7 +305,7 @@ function Course() {
             title: "Introduction to IT",
             body: "Beginner friendly",
             num: "6",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -316,7 +315,7 @@ function Course() {
             title: "Learn Bootstrap",
             body: "Intermediate",
             num: "2",
-            less: "Lessons",
+            less: "Lessons"
             //   bottom: "Language Fluency"
         },
         {
@@ -325,7 +324,7 @@ function Course() {
             title: "Learn React Native",
             body: "Intermediate",
             num: "5",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -335,7 +334,7 @@ function Course() {
             title: "Building Interactive JavaScript Websites",
             body: "Intermediate",
             num: "5",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -344,7 +343,7 @@ function Course() {
             title: "Learn Vue.js",
             body: "Beginner friendly",
             num: "4",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -353,7 +352,7 @@ function Course() {
             title: "Learn Angular JS 1.X",
             body: "Intermediate",
             num: "4",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -362,7 +361,7 @@ function Course() {
             title: "Learn What to Learn",
             body: "Beginner friendly",
             num: "6",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -371,7 +370,7 @@ function Course() {
             title: "Introduction to UI and UX Design",
             body: "Beginner friendly",
             num: "3",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -381,7 +380,7 @@ function Course() {
             title: "Learn jQuery",
             body: "Beginner friendly",
             num: "5",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -390,7 +389,7 @@ function Course() {
             title: "Getting Started Off-Platform for Data Science",
             body: "Beginner friendly",
             num: "1",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -400,7 +399,7 @@ function Course() {
             title: "Learn Web Scraping with Beautiful Soup",
             body: "Intermediate",
             num: "1",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -410,7 +409,7 @@ function Course() {
             title: "Learn Ruby on Rails",
             body: "Intermediate",
             num: "4",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -419,7 +418,7 @@ function Course() {
             title: "Learn Redux",
             body: "Intermediate",
             num: "7",
-            less: "Lessons",
+            less: "Lessons"
             //   bottom: "Language Fluency"
         },
         {
@@ -428,7 +427,7 @@ function Course() {
             title: "Learn the Basics of Regular Expressions",
             body: "Beginner friendly",
             num: "1",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -437,7 +436,7 @@ function Course() {
             title: "Introduction to DevOps",
             body: "Beginner friendly",
             num: "6",
-            less: "Lessons",
+            less: "Lessons"
             // bottom: "Language Fluency"
         },
         {
@@ -447,7 +446,7 @@ function Course() {
             title: "Learn Data Analysis with Pandas",
             body: "Intermediate",
             num: "4",
-            less: "Lessons",
+            less: "Lessons"
             //  bottom: "Language Fluency"
         },
         {
@@ -457,7 +456,7 @@ function Course() {
             title: "Introduction to Linux",
             body: "Intermediate",
             num: "7",
-            less: "Lessons",
+            less: "Lessons"
             //bottom: "Language Fluency"
         },
         {
@@ -467,9 +466,11 @@ function Course() {
             title: "Learn Asynchronous JavaScript",
             body: "Intermediate",
             num: "2",
-            less: "Lessons",
+            less: "Lessons"
             //   bottom: "Language Fluency"
-        }
+        },
+        
+        
     ]);
 
     const [showPerPage, setShowPerPage] = useState(9);

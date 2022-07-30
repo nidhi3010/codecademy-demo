@@ -1,6 +1,6 @@
 
 .lang-accordion{
-  
+ 
   padding-top: 5%;
   
 }
@@ -8,7 +8,7 @@
 .catalog-page{  
   margin-top: 3.4%;
 
-    .full-catalog{
+    .catalog-title{
    
       text-decoration: none;
       color: #10162F;
@@ -101,7 +101,34 @@
         //  background-color: yellow;
         }
   
-
+       .catalog-link{
+         
+            align-items: center;
+            margin-left: 20rem;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 700;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            padding-top: 0.50rem;
+            padding-bottom: 0.50rem;
+            font-size: 1rem;
+            min-width: 40px;
+            height: 40px;
+            border: 2px solid #3A10E5;
+            color: #3A10E5;
+            &:hover{
+              cursor: pointer;
+              background-color: rgb(226, 222, 222);
+              & .catalog-link{
+                  opacity: 1;
+                  transform: scale(1.2);
+                  transition: 0.3s ease-in-out; 
+                  
+              }
+          }
+    
+       }
     
      
     }

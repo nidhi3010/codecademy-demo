@@ -23,13 +23,13 @@ const NoteWorthy = () => (
         <div className="course-card">
             <div className="card-1">
                 <p className="c1">Course</p>
-                <h3>Learn Tableau for Data<br/>Visualization</h3>
+                <h3>Learn Tableau for Data<br />Visualization</h3>
                 <li><p className="c2">Beginner friendly,<b>2</b>Lessons</p></li>
             </div>
 
             <div className="card-2">
                 <p className="c3">Course</p>
-                <h3>Learn Microsoft Excel for<br/> Data Analysis</h3>
+                <h3>Learn Microsoft Excel for<br /> Data Analysis</h3>
                 <li><p className="c4">Beginner friendly,<b>4</b>Lessons</p></li>
             </div>
 
@@ -41,7 +41,7 @@ const NoteWorthy = () => (
 
             <div className="card-4">
                 <p className="c7">Course</p>
-                <h3>Learn Go: Loops,Arrays,<br/>Maps,and Structs</h3>
+                <h3>Learn Go: Loops,Arrays,<br />Maps,and Structs</h3>
                 <li><p className="c8">Beginner friendly,<b>4</b>Lessons</p></li>
             </div>
 
@@ -54,7 +54,7 @@ const NoteWorthy = () => (
 
             <div className="card-6">
                 <p className="c11"><span>Pro</span> Career Path</p>
-                <h3>Data Scientist: Analytics<br/>Specialist</h3>
+                <h3>Data Scientist: Analytics<br />Specialist</h3>
                 <li><p className="c12">Beginner friendly,<b>63</b>Lessons</p></li>
                 <span className="b6">Job Essentials</span>
             </div>

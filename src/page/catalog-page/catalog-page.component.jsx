@@ -1,7 +1,10 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
+
 import AllLevelsMenu from "../../components/all-levels-dropdown/all-levels-dropdown.component";
 import Course from "../../components/course/course.component";
+import GetInspired from "../../components/get-inspired/get-inspired.component";
 import LanguageAccordion from "../../components/language-accordion/language-accordion";
 import NoteWorthy from "../../components/note-worthy/note-worthy.component";
 import ProCourseMenu from "../../components/pro-courses-dropdown/pro-courses-dropdown.component";
@@ -15,7 +18,7 @@ const CatalogPage = () => (
     <div className="catalog-page">
         <LanguageAccordion />
         <SubjectAccordion />
-        <a className="full-catalog" href="#">Full Catalog</a>
+        <a className="catalog-title" href="#">Full Catalog</a>
         <a className="where-do-i-begin" href="#">Where do I begin</a>
         <div className="take-quize">
             <p>Not sure where to begin? <span>Take our quiz →</span></p>
@@ -28,6 +31,10 @@ const CatalogPage = () => (
         <AllLevelsMenu />
         <Course />
         <NoteWorthy />
+        <GetInspired />
+        <Link className='catalog-link' to="all">
+            See Full Catalog
+        </Link>
     </div>
 )
 
