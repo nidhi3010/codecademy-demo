@@ -1,0 +1,180 @@
+.grow-asteam{
+    background-color:  #10162F;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+    h2{
+        font-size: 2.125rem;
+        font-weight: 700;
+        line-height: 1.1;
+        color: #ffffff;
+        padding-top:3rem;
+        text-align: left;
+        margin-left: 17%;
+    }
+    .team{
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+        .interective{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -19rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+            
+            }
+            p{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+        }
+        .practice{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -21rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+            }
+            p{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+                font-size: 1.1rem;
+                a{
+                  color: #FFD300;
+                  &:hover{
+                    cursor: pointer;
+                    text-decoration: none;
+                    & a{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+                }
+            }
+        }
+        .step-by-step{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -22.6rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+                font-size: 1.1rem;
+            }
+            p{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+        }
+        .learner{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -19rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+            }
+            p{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+        }
+        .content{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -21rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+            }
+            p{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+            }
+        }
+        .reporting{
+            img{
+                margin-bottom: 2rem;
+                width: 64px;
+                margin-left: -22.6rem;
+            }
+            h3{
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #ffffff;
+                text-align: left;
+                margin-top: -0.5rem; 
+            }
+            P{
+                margin-bottom: 1rem;
+                color: #ffffff;
+                line-height: 1.5rem;
+                text-align: left;
+                margin-top: -1rem;
+                font-weight: 500;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

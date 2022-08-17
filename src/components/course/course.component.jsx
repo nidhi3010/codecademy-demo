@@ -469,8 +469,8 @@ function Course() {
             less: "Lessons"
             //   bottom: "Language Fluency"
         },
-        
-        
+
+
     ]);
 
     const [showPerPage, setShowPerPage] = useState(9);
@@ -492,7 +492,7 @@ function Course() {
                     <div className="colm" key={post.id}>
                         <div className="card">
                             <div className="card-body">
-                                <p className="pro-title" style={{"fontSize":"1rem"}}><span>{post.pro}</span>{post.pretitle}</p>
+                                <p className="pro-title" style={{ "fontSize": "1rem" }}><span>{post.pro}</span>{post.pretitle}</p>
                                 <h3>{post.title}</h3>
                                 <li><p className="num-body">{post.body},<b>{post.num}</b>{post.less}</p></li>
                                 <span className="bottm">{post.bottom}</span>

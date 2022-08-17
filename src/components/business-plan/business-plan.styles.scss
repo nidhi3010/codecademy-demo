@@ -1,0 +1,159 @@
+.business-plan{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 8rem;
+  
+    .title-team-enterprise{  
+         display: flex;
+        h2{
+            font-weight: 700;
+            line-height: 1.1;
+            font-size: 2.75rem;
+            color: #10162F;
+            text-align: left;
+        }
+        .teams-card{
+       border-top: 4px solid #10162F;
+       margin-left: 9rem;
+       margin-right: 1.8rem;
+       background-color: #ffffff;
+       width: 32%;
+       text-align: left;
+       padding-bottom: 3.5rem;
+      
+            h3{
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.375rem;
+                color: #10162F;
+                padding-left: 1rem;
+                margin-top: 3rem;
+               
+            }
+            .peruser{
+                padding-bottom: 0.5rem;
+                font-weight: normal;
+                color: #10162F;
+                padding-left: 1rem;
+              
+                 
+                span{
+                    font-size: 2.75rem;
+                    color: #10162F;
+                    font-weight: 700;
+                    line-height: 1.1;
+                    margin-right: 0.5rem;
+                    
+                }
+            }
+            .smaller-team{
+              
+                padding-left: 1rem;
+                margin-top: -0.5rem;
+                font-weight: 500;
+                line-height: 1.5;
+                color: #10162F;
+                font-size: 1.125rem;
+                padding-bottom: 1.5rem;
+            }
+            .free-trial{
+               
+                margin-left: 2rem;
+                border-radius: 4px;
+                color: #3A10E5;
+                font-weight: 700;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                text-decoration: none;
+                font-size: 1rem;
+                &:hover{
+                    cursor: pointer;
+                    background-color: rgb(226, 222, 222);
+                    & .free-trial{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+        }
+
+        .enterprise-card{
+            background-color: #ffffff;
+            width: 32%;
+            border-top: 4px solid #3A10E5;
+             padding-bottom: 3.5rem;
+            h3{
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.375rem;
+                color: #10162F;
+                padding-left: 1rem;
+                margin-top: 3rem;
+                text-align: left;
+                width: 30%;
+            }
+            .recomed{
+                color: #10162F;
+              margin-left: 17rem;
+              margin-top: -2.8rem;
+              font-weight: 500;
+              line-height: 1.5;
+             font-size: 0.875rem;
+              padding-left: 0.5rem;
+               padding-right: 0.5rem;
+               background-color: #FFD300;
+             
+            }
+            
+            .custom-price{
+                font-size: 2.75rem;
+                color: #10162F;
+                font-weight: 700;
+                line-height: 1.1;
+                margin-right: 0.5rem;
+                text-align: left;
+                padding-left: 1rem;
+                margin-top: 1.6rem;
+              
+            }
+            .infor{
+                padding-left: 1rem;
+                margin-top: -0.5rem;
+                font-weight: 500;
+                line-height: 1.5;
+                color: #10162F;
+                font-size: 1.125rem;
+                padding-bottom: 1.5rem;
+                text-align: left;
+                margin-top: -1.7rem;
+            }
+            .demo{
+                margin-left: -13rem;
+                border-radius: 4px;
+                font-weight: 700;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                text-decoration: none;
+                font-size: 1rem;
+                background-color: #3A10E5;
+                color: #ffffff;
+                &:hover{
+                    cursor: pointer;
+                    background-color:#492ac7;
+                    & .demo{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,94 @@
+.business-solution-page{
+    margin-top: 3.4%;
+    background-color: #F5FCFF;
+  //  background-color: yellowgreen;
+
+  .way-to-learn{
+   
+    text-align: left;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 2rem;
+    h2{
+      font-size: 2.125rem;
+      font-weight: 700;
+    line-height: 1.1;
+      color:  #10162F;
+    
+    }
+    p{
+      line-height: 1.6;
+      font-size: 1.1rem;
+      color:  #10162F;
+         margin-top: -1rem;
+         font-weight: 500;
+    }
+    .busi-gif{
+       width: 43%;
+       height: 43%;
+    //   float: right;
+    margin-left: 57%;
+      margin-top: -10.5rem;
+    }
+  }
+
+  .elevate{
+    background-color: #FFD300;
+    margin-top: -2rem;
+    padding-bottom: 3rem;
+    display: flex;
+     .ele-inf{
+    h2{
+        margin-left: 52%;
+        text-align: left;
+        font-size: 2.125rem;
+        font-weight: 700;
+        line-height: 1.1;
+        color:  #10162F;
+        //width: 40%;
+        padding-top:2.5rem;  
+ 
+       }
+    p{
+        margin-left: 52%;
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color:  #10162F;
+        margin-top: -1rem;
+        font-weight: 500;
+      
+     //   width: 40%;
+     width: 100%;
+    }
+  }
+   .enterprise{
+    
+     margin-left: 45rem;
+     margin-top: 7rem;
+     a{
+   text-decoration: none;
+   border-radius: 4px;
+     font-weight: 700;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-top: 0.75rem;
+      padding-bottom: 0.75rem;
+      font-size: 1rem;
+      color: #ffffff;
+      background-color: #3A10E5;
+      &:hover{
+        cursor: pointer;
+        background-color:#522bf1;
+        & a{
+            opacity: 1;
+            transform: scale(1.2);
+            transition: 0.3s ease-in-out; 
+            
+        }
+    }
+     }
+    
+   }
+  }
+}

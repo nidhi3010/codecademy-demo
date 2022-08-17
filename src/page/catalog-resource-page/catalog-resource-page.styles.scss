@@ -1,0 +1,65 @@
+.catalog-resource-page{
+    margin-top: 3.4%;
+    background-color: #FFFAE5;
+    //padding-top: 5rem;
+     padding-left: 17%;
+     padding-right: 17%;
+    .student-center{
+        text-align: left;
+        padding-top: 5rem;
+        span{
+            font-size: 1.375rem;
+            color: #1557FF;
+            font-weight: 700;
+            line-height: 1.1;
+           
+        }
+        h1{
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.1;
+            color: #10162F;
+           margin-top: 0.5rem;
+        }
+        p{
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #10162F;
+            font-weight: 600;
+            margin-top: -1.5rem;
+            padding-bottom: 2rem;
+        }
+        .freetrial{
+            border: 1px ;
+            padding-left: 1.5rem;
+            padding-right: 1.5rem;
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+            font-weight: 700;
+            border-radius: 2px;
+            color: #ffffff;
+            background-color: #3A10E5;
+            text-decoration: none;
+            box-shadow: -4px 4px 0 0 #10162F;
+         
+         //   margin-left: -68rem;
+  
+      &:hover{
+          cursor: pointer;
+          box-shadow: -7px 7px 0 0 #10162F;
+          &  .freetrial{
+              opacity: 1;
+              transform: scale(1.2);
+              transition: 0.3s ease-in-out; 
+              
+          }
+      }
+        }
+        img{
+            height: 40%;
+            width: 45%;
+            float: right;
+            margin-top: -14rem;
+        }
+    }
+}

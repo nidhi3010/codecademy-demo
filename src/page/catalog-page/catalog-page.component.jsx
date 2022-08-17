@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import AllLevelsMenu from "../../components/all-levels-dropdown/all-levels-dropdown.component";
 import Course from "../../components/course/course.component";
 import GetInspired from "../../components/get-inspired/get-inspired.component";
-import LanguageAccordion from "../../components/language-accordion/language-accordion";
+import LanguageAccordion from "../../components/language-accordion/language-accordion.component";
 import NoteWorthy from "../../components/note-worthy/note-worthy.component";
 import ProCourseMenu from "../../components/pro-courses-dropdown/pro-courses-dropdown.component";
 import SubjectAccordion from "../../components/subject-accordion/subject-accordion.component";

@@ -1,10 +1,10 @@
 import React from "react";
 
 
-
 import './get-inspired.styles.scss';
 
-const GetInspired = () => (
+const GetInspired = () =>
+(
     <div className="get-inspired">
         <h2 className="get">Get inspired</h2>
         <div className="best-resources">
@@ -27,7 +27,7 @@ const GetInspired = () => (
         </div>
         <div className="img-resource">
             <img src="https://images.ctfassets.net/go6kr6r0ykrq/12jJ3cWg6gTfZFfGZZZxM8/ff0e4bd1d60c86f8580a067e2f267854/image__7_.png" />
-            <p>Resource</p>
+            <a href="/catalogresource" target="_blank" >Resource</a>
             <h3>Our best resources for students</h3>
         </div>
 
@@ -85,4 +85,5 @@ const GetInspired = () => (
 
     </div>
 )
+
 export default GetInspired;

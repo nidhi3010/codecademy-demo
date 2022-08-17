@@ -92,9 +92,9 @@ const PriceTable = () => {
                         <th className="tb1th-3">
                             <span>Members-Only Content</span>
                         </th>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
                     </tr>
                 </tbody>
 
@@ -133,9 +133,9 @@ const PriceTable = () => {
                     </tr>
                     <tr className="tb2tr-6">
                         <th className="tb2th-6">Certificates of Completion</th>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
                     </tr>
                 </tbody>
                 <tbody className="tb3">
@@ -161,17 +161,17 @@ const PriceTable = () => {
                     </tr>
                     <tr className="tb3tr-4">
                         <th className="tb3th-4">Flexible Start Dates</th>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0" ,"borderBottom": "1px solid #E0E0E0"}}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0" ,"borderBottom": "1px solid #E0E0E0"}}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BsX style={{ "color": "#9E9E9E", "fontSize": "1.5rem" }} /></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><BiCheck style={{ "color": "#1557FF", "fontSize": "1.5rem" }} /></td>
                     </tr>
                 </tbody>
                 <tbody className="tb4">
                     <tr className="tb4tr-1">
-                        <td style={{ "borderRight": "1px solid #E0E0E0"}}></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><Link className="sili" to="signup">Sign Up</Link></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><a href="#" className="upgrade">Upgrade Now</a></td>
-                        <td style={{ "borderRight": "1px solid #E0E0E0","borderBottom": "1px solid #E0E0E0" }}><a href="#">Get a Quote</a></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0" }}></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><Link className="sili" to="signup">Sign Up</Link></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><a href="#" className="upgrade">Upgrade Now</a></td>
+                        <td style={{ "borderRight": "1px solid #E0E0E0", "borderBottom": "1px solid #E0E0E0" }}><a href="#">Get a Quote</a></td>
 
                     </tr>
 

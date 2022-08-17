@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 
 import './sign-up-page.styles.scss';
 
-import {FiAlertCircle} from 'react-icons/fi';
+import { FiAlertCircle } from 'react-icons/fi';
 import { BsLinkedin } from 'react-icons/bs';
 import { FcGoogle } from 'react-icons/fc';
 import { GrFacebook } from 'react-icons/gr';
@@ -51,61 +51,61 @@ const SignUpPage = () => {
       }
       return errors;
 
-};
+   };
 
 
-return (
- 
-    <div className="sign-up-page">
-   <form onSubmit={handleSubmit}>
-      <h1>Get started for free</h1>
+   return (
 
-      <div className='e-mail'>
-         <label htmlFor='email'>Email</label>
-         <input
-            type="text"
-            name="email"
-            id="email"
-            value={formValues.email}
-            onChange={handleChange}
-         />
+      <div className="sign-up-page">
+         <form onSubmit={handleSubmit}>
+            <h1>Get started for free</h1>
 
+            <div className='e-mail'>
+               <label htmlFor='email'>Email</label>
+               <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  value={formValues.email}
+                  onChange={handleChange}
+               />
+
+            </div>
+            <p>{formErrors.email}</p>
+            <div className='passwrd'>
+               <label htmlFor='password'>Password <FiAlertCircle className='alert' /></label>
+               <input
+                  type="text"
+                  name="password"
+                  id="password"
+                  value={formValues.password}
+                  onChange={handleChange}
+               />
+            </div>
+            <p>{formErrors.password}</p>
+            <button type='submit' className='signup-butn'>Sign Up</button>
+            <small className='signing'>By signing up for Codecademy, you agree to Codecademy's   </small>
+
+            <small className='ser-poly'>
+               <a className='termsofservice' href='#'>Terms of Service  </a> & <a className='pri-vacy' href='#'>Privacy Policy </a>
+            </small>
+
+
+
+            <div className='other-op'>
+               <h3>Or Sign Up using:</h3>
+               <div className='otherbtn'>
+                  <button type='submit' className='linkdin'><BsLinkedin /></button>
+                  <button type='submit' className='google'><FcGoogle /></button>
+                  <button type='submit' className='facebook'><GrFacebook /></button>
+                  <button type='submit' className='github'><BsGithub /></button>
+
+               </div>
+
+            </div>
+         </form>
       </div>
-      <p>{formErrors.email}</p>
-      <div className='passwrd'>
-         <label htmlFor='password'>Password <FiAlertCircle className='alert'/></label>
-         <input
-            type="text"
-            name="password"
-            id="password"
-            value={formValues.password}
-            onChange={handleChange}
-         />
-      </div>
-      <p>{formErrors.password}</p>
-      <button type='submit' className='signup-butn'>Sign Up</button>
-      <small className='signing'>By signing up for Codecademy, you agree to Codecademy's   </small>
 
-      <small className='ser-poly'>
-         <a className='termsofservice' href='#'>Terms of Service  </a> & <a className='pri-vacy' href='#'>Privacy Policy </a>
-      </small>
-
-
-
-      <div className='other-op'>
-         <h3>Or Sign Up using:</h3>
-         <div className='otherbtn'>
-            <button type='submit' className='linkdin'><BsLinkedin /></button>
-            <button type='submit' className='google'><FcGoogle /></button>
-            <button type='submit' className='facebook'><GrFacebook /></button>
-            <button type='submit' className='github'><BsGithub /></button>
-           
-         </div>
-
-      </div>
-   </form>
-</div>
-
-)
+   )
 }
 export default SignUpPage;

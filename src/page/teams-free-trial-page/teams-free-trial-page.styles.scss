@@ -1,0 +1,103 @@
+.teams-freetrial{
+    margin-top: 3.4%;
+    background-color: #ffffff;
+    display: flex;
+
+    .side-part{
+      background-color:   #10162F;
+      padding-left: 6rem;
+      padding-bottom: 20rem;
+      width: 22%;
+    h2{
+      padding-top: 8rem;
+      text-align: left;
+      font-size: 2.125rem;
+    font-weight: bold;
+    line-height: 1.29;
+    color: #FFF0E5;
+    }
+
+    .ip-1{
+        display: flex;
+        text-align: left;
+        margin-top: -1.5rem;
+        img{
+            margin-top: -1.5rem;
+        }
+        .para1{
+            margin-left: 1.7rem;
+            .pa1{
+                font-size: 1.25rem;
+               font-weight: bold;
+               color: #FFF0E5;
+            }
+            .pa2{
+              margin-top: -0.5rem;
+              color: #FFF0E5;
+            }
+        }
+    }
+
+    .ip-2{
+       display:flex;
+       text-align: left;
+       margin-top: -0.5rem;
+        img{
+            margin-top: -1.5rem;
+        }
+        .para2{
+            margin-left: 1.7rem;
+            .pa3{
+                font-size: 1.25rem;
+                font-weight: bold;
+                color: #FFF0E5;
+            }
+            .pa4{
+                margin-top: -0.5rem;
+                color: #FFF0E5;
+            }
+        }
+    }
+
+    .ip-3{
+        display: flex;
+        text-align: left;
+        margin-top: -0.5rem;
+        img{
+            margin-top: -1.5rem;
+        }
+        .para3{
+            margin-left: 1.7rem;
+            .pa5{
+                font-size: 1.25rem;
+                font-weight: bold;
+                color: #FFF0E5;
+            }
+            .pa6{
+                margin-top: -0.5rem;
+                color: #FFF0E5;
+            }
+        }
+    }
+    .ip-4{
+        display: flex;
+        text-align: left;
+        margin-top: -0.5rem;
+        img{
+            margin-top: -1.5rem;
+        }
+        .para4{
+            margin-left: 1.7rem;
+            .pa7{
+                font-size: 1.25rem;
+                font-weight: bold;
+                color: #FFF0E5;
+            }
+            .pa8{
+                margin-top: -0.5rem;
+                color: #FFF0E5;
+            }
+        }
+    }
+}
+}

@@ -34,7 +34,7 @@ const NavBar = ({ }) => {
         <li><FadeMenu /></li>
         <li onClick={() => history.push("/pricing")}>Pricing</li>
 
-        <li><a href='#'>Business Solutions</a></li>
+        <li onClick={() => history.push("/businesssolution")}>Business Solutions</li>
 
 
       </ul>

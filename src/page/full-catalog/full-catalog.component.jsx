@@ -2,7 +2,7 @@ import React from "react";
 import CareerSkillPath from "../../components/career-skill-path/career-skill-path.component";
 import CatalogCareerPath from "../../components/catalog-career-path/catalog-career-path.component";
 import CatalogCourse from "../../components/catalog-course/catalog-course.component";
-import LanguageAccordion from "../../components/language-accordion/language-accordion";
+import LanguageAccordion from "../../components/language-accordion/language-accordion.component";
 import SubjectAccordion from "../../components/subject-accordion/subject-accordion.component";
 import Pricing from "../pricing-page/pricing-page.component";
 

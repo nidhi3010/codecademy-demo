@@ -141,21 +141,21 @@
         }
     }
     .img-resource{
-      //  background-color: darkcyan;
+        text-align: left;
         margin-left: 60rem;
         margin-top: -30rem;
         img{
             max-height: 24.75rem;
             //width: 100%;
         }
-        p{
+        a{
             line-height: 1.1;
             font-size: 0.875rem;
             text-transform: uppercase;
             color: #3A10E5;
             margin-top: 0.75rem;
             margin-bottom: 0.5rem;
-           // background-color: darkcyan;
+            text-decoration: none;
             width: 20%;
             margin-top: 0.5rem;
         }
@@ -165,6 +165,7 @@
             line-height: 1.1;
             color: #10162F;
             margin-top: 0rem;
+            margin-left: 0rem;
             &:hover{
                 cursor: pointer;
                 color: #3A10E5;
