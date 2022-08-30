@@ -53,7 +53,7 @@ const GetInspired = () =>
 
         <div className="article">
             <img src="https://static-assets.codecademy.com/assets/components/resources/article/standard/group-7.svg" />
-            <p>Article</p>
+            <a href="/article" target="_blank" >Article</a>
             <h3>Consider Design While You Build</h3>
         </div>
         <div className="article-video-blog">

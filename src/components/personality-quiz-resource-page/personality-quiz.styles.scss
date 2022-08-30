@@ -1,0 +1,132 @@
+.personality-quiz{
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10rem;
+    .programmers-quiz{
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 2rem;
+      
+        .programming-quiz{
+            text-align: left;
+            img{
+              width: 100%;
+            }
+            h2{
+                font-size: 1.625rem;
+                font-weight: 700;
+                color: #10162F;
+                line-height: 1.1;
+            }
+            p{
+                font-size: 1rem;
+                color: #10162F;
+                text-align: left;
+                line-height: 1.4;
+                font-weight: 500;
+                margin-top: -1rem;
+                a{
+                    text-decoration: underline;
+                    color: #3A10E5;
+                    font-size: 1.1rem;
+                    &:hover{
+                        cursor: pointer;
+                       text-decoration: none;
+                        & a{
+                            opacity: 1;
+                            transform: scale(1.2);
+                            transition: 0.3s ease-in-out; 
+                            
+                        }
+                    }
+                }
+            }
+        }
+        .programmers-do{
+            text-align: left;
+            img{
+                width: 100%;
+            }
+            h2{
+                font-size: 1.625rem;
+                font-weight: 700;
+                color: #10162F;
+                line-height: 1.1;
+             
+            }
+            p{
+                font-size: 1rem;
+                color: #10162F;
+                text-align: left;
+                line-height: 1.4;
+                font-weight: 500;
+                margin-top: -1rem;
+                a{
+                    text-decoration: underline;
+                    color: #3A10E5;
+                    font-size: 1.1rem;
+                    &:hover{
+                        cursor: pointer;
+                       text-decoration: none;
+                        & a{
+                            opacity: 1;
+                            transform: scale(1.2);
+                            transition: 0.3s ease-in-out; 
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .tyler-v{
+        padding-bottom: 4rem;
+        background-color: #10162F;
+        margin-top: 8rem;
+        padding-top: 2rem;
+        .photo-name{
+            float: left;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        img{
+            height: 98px;
+            width: 98px;
+            border-radius: 70px;
+            grid-area: avatar;
+
+           
+        }
+        p{
+         text-align:center;
+        font-weight: 500;
+        line-height: 1.5;
+        font-size: 0.875rem;
+        color: #FFF0E5;   
+        }
+    }
+    .img-detail{ 
+         display: flex;
+        img{
+          //  padding-left: 1rem;
+          //   margin-right: 1rem;
+            height: 25px;
+            grid-area: art;
+            display: flex;
+        }
+        .ty-de{
+          padding-left: 1rem;
+          text-align: left;
+          font-weight: 700;
+         line-height: 1.1;
+        font-size: 1.625rem;
+        color: #FFF0E5;
+        margin-top: 0rem;
+        
+         
+        }
+         
+        } 
+        
+    }
+}

@@ -1,0 +1,376 @@
+.staff-picks{
+    margin-top: 2rem;
+    h2{ 
+       text-align: left;
+       font-weight: 700;
+    line-height: 1.1;
+    font-size: 1.625rem;
+    color: #10162F;
+    }
+    .portfolio{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2rem;
+        .pf1{
+            background-color: #ffffff;
+            border: 1px solid #10162F;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &   .pf1{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf1-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf1-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf1-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf1-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+             
+            }
+            .pfb1{
+                margin-left: 8.1rem;
+                width: 50%;
+                margin-top: -2.3rem;
+                font-weight: 700;
+                line-height: 1.1;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+                font-size: 0.875rem;
+              background-color: #FFF5FF;
+              color: #10162F;
+            }
+        }
+
+        .pf2{
+            background-color:#ffffff;
+            border: 1px solid #10162F;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &    .pf2{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf2-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf2-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf2-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf2-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+                padding-top: 4rem;
+               
+            }
+        }
+
+        .pf3{
+            background-color: #ffffff;
+            border: 1px solid #10162F;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &    .pf3{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf3-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf3-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf3-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf3-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+              
+            }
+            .pfb3{
+              width: 50%;
+              margin-top: 1.3rem;
+                margin-left:8.1rem;
+                font-weight: 700;
+                line-height: 1.1;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+                font-size: 0.875rem;
+               background-color: #FFF5FF;
+              color: #10162F;
+                
+            }
+        }
+
+        .pf4{
+            border: 1px solid #10162F;
+            background-color: #ffffff;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &    .pf4{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf4-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf4-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf4-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf4-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+                padding-top: 4rem;
+            }
+        }
+
+        .pf5{
+            background-color: #ffffff;
+            border: 1px solid #10162F;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &    .pf5{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf5-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf5-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf5-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf5-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+                padding-top: 4rem;
+            }
+        }
+
+        .pf6{
+            border: 1px solid #10162F;
+            background-color: #ffffff;
+            height: 95%;
+            padding-left: 1rem;
+            &:hover{
+                cursor: pointer;
+                padding: 0.25rem;
+                box-shadow: -7px 7px 0 0 #10162F;
+                &    .pf6{
+                    opacity: 1;
+                    transform: scale(1.2);
+                    transition: 0.3s ease-in-out; 
+                    
+                }
+            }
+            .pf6-p1{
+                font-size: 0.875rem;
+                text-align: left;
+                margin-bottom: 0.75rem;
+                color: #10162F;
+            }
+            h3{
+                text-align: left;
+                font-weight: 700;
+                line-height: 1.1;
+                font-size: 1.25rem;
+                margin-bottom: -0.5rem;
+                color: #10162F;
+            }
+            .pf6-p2{
+                text-align: left;
+                font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf6-p3{
+               text-align: left;
+               font-weight: 400;
+               line-height: 1.5;
+               color: #424242;
+               font-size: 0.875rem;
+            }
+            .pf6-p4{
+                text-align: left;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #424242;
+                font-size: 0.875rem;
+               
+            }
+            .pfb6{
+               width: 50%;
+               margin-top: 1.3rem;
+               margin-left:8.1rem;
+                font-weight: 700;
+                line-height: 1.1;
+                padding-top: 0.25rem;
+                padding-bottom: 0.25rem;
+                font-size: 0.875rem;
+               background-color: #FFF5FF;
+              color: #10162F;
+            }
+        }
+    }
+}

@@ -1,0 +1,177 @@
+.blog-posts{
+    // margin-left: 17%;
+    // margin-right: 17%;
+    // padding-left: 17%;
+    // padding-right: 17%;
+    margin-top: 5rem;
+ 
+    h2{
+        margin-left: 17%;
+        margin-right: 17%;
+        text-align: left;
+        font-size: 2.125rem;
+        font-weight: 700;
+       line-height: 1.1;
+       color: #10162F;
+    }
+    .posts{
+        margin-top: 3rem;
+          margin-left: 17%;
+    margin-right: 17%;
+    //      display: flex;
+    //  gap: 1rem;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 1rem;
+        .learn-from-home{
+            text-align: left;
+            img{
+            width: 100%;
+            height: 62%;
+            }
+            h3{
+                margin-top: 1rem;
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #10162F;
+            }
+            p{
+               
+                margin-top: -1.2rem;
+            a{
+                text-decoration: underline;
+                font-size: 1rem;
+                color: #3A10E5;
+                &:hover{
+                    cursor: pointer;
+                   text-decoration: none;
+                    & a{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+        }
+        }
+        .codecademy-team{
+            text-align: left;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h3{
+                margin-top: 1rem;
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #10162F;
+            }
+            p{
+               
+                margin-top: -1.2rem;
+            a{
+                text-decoration: underline;
+                font-size: 1rem;
+                color: #3A10E5;
+                &:hover{
+                    cursor: pointer;
+                   text-decoration: none;
+                    & a{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+        }
+        }
+        .pro-mem{
+            text-align: left;
+            img{
+                width: 100%;
+                height: auto;
+            }
+            h3{
+                margin-top: 1rem;
+                font-size: 1.625rem;
+                font-weight: 700;
+                line-height: 1.1;
+                color: #10162F;
+            }
+            p{
+               
+                margin-top: -1.2rem;
+            a{
+                text-decoration: underline;
+                font-size: 1rem;
+                color: #3A10E5;
+                &:hover{
+                    cursor: pointer;
+                   text-decoration: none;
+                    & a{
+                        opacity: 1;
+                        transform: scale(1.2);
+                        transition: 0.3s ease-in-out; 
+                        
+                    }
+                }
+            }
+        }
+        }
+    }
+    .get-free-pro-class{
+        background-color: #10162F;
+        margin-top: 3rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      
+    .getfree-pro{
+       margin-left: 17%;
+       margin-right: 17%;
+       font-size: 2.125rem;
+       font-weight: 700;
+       line-height: 1.1;
+       color: #ffffff;
+    }
+    p{
+      
+       font-size: 1.1rem;
+       color: #ffffff;
+       line-height: 1.6;
+       text-align: left;
+       font-weight: 500;
+       margin-left: 17%;
+       margin-right: 17%;
+    }
+    .visit-clever{
+        margin-left: 17%;
+        margin-right: 17%;
+        margin-top: -6rem;
+       float: right;
+       text-decoration: none;
+       border-radius: 4px;
+       font-weight: 700;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       padding-top: 0.50rem;
+       padding-bottom: 0.50rem;
+       font-size: 1rem;
+       color: #10162F;
+       background-color: #FFD300;
+&:hover{
+   cursor: pointer;
+  background-color: #CCA900;
+   &  .visit-clever{
+       opacity: 1;
+       transform: scale(1.2);
+       transition: 0.3s ease-in-out; 
+       
+   }
+}
+    }
+}
+}

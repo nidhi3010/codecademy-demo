@@ -41,14 +41,14 @@ export default function ResourceMenu() {
         onClose={handleClose}
         TransitionComponent={Fade}
       >
-        <MenuItem onClick={handleClose}>Projects</MenuItem>
+        <MenuItem onClick={handleClose}><a href='/project' style={{"textDecoration":"none","color":"black" }}>Projects</a></MenuItem>
         <MenuItem onClick={handleClose}>Challenges</MenuItem>
         <MenuItem onClick={handleClose}>Docs</MenuItem>
         <MenuItem onClick={handleClose}>Cheatsheets</MenuItem>
         <MenuItem onClick={handleClose}>Articles</MenuItem>
         <MenuItem onClick={handleClose}>Videos</MenuItem>
         <MenuItem onClick={handleClose}>Blog</MenuItem>
-        <MenuItem onClick={handleClose}>Carrer Center</MenuItem>
+        <MenuItem onClick={handleClose}><a href='/career-center' style={{"textDecoration":"none","color":"black" }}>Carrer Center</a></MenuItem>
       </Menu>
     </div>
   );

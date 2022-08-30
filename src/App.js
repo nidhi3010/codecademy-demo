@@ -15,6 +15,9 @@ import PricingPage from './page/pricing-page/pricing-page.component';
 import TeamsFreeTrail from './page/teams-free-trial-page/teams-free-trial-page.component';
 import SeeCourses from './page/see-courses/see-courses.component';
 import CatalogResourcePage from './page/catalog-resource-page/catalog-resource-page.component';
+import ArticlePage from './page/article-page/article-page.component';
+import ResourceProjectPage from './page/resource-project-page/resource-project-page.component';
+import CareerCenter from './page/resource-career-center-page/resource-career-center-page.component';
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
         <Route path='/teamfreetrial' component={TeamsFreeTrail} />
         <Route path='/seecourses' component={SeeCourses} />
         <Route path='/catalogresource' component={CatalogResourcePage} />
+        <Route path='/article' component={ArticlePage} />
+        <Route path='/project' component={ResourceProjectPage} />
+        <Route path='/career-center' component= {CareerCenter}/>
       </Switch>
     </div>
   );

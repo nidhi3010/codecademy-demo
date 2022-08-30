@@ -1,5 +1,10 @@
 import React from "react";
+import BlogPosts from "../../components/blog-posts-resource-page/blog-posts.component";
+import CheatSheets from "../../components/cheatsheets-resource-page/cheatsheets.component";
+import CommunityChapters from "../../components/community-chapters/community-chapters.component";
 import CsCareerPath from "../../components/cs-career-path/cs-career-path.component";
+import FeaturedCurriculum from "../../components/featured-curriculum/featured-curriculum.component";
+import PersonalityQuiz from "../../components/personality-quiz-resource-page/personality-quiz.component";
 import ProStudentMembership from "../../components/pro-student-membership/pro-student-membership.component";
 import './catalog-resource-page.styles.scss';
 
@@ -14,7 +19,13 @@ const CatalogResourcePage = () => (
         </div>
 
         <ProStudentMembership />
-        <CsCareerPath/>
+        <CsCareerPath />
+        <CommunityChapters />
+        <FeaturedCurriculum />
+        <PersonalityQuiz />
+        <CheatSheets />
+        <BlogPosts />
+
     </div>
 )
 export default CatalogResourcePage;
